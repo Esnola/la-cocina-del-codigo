@@ -1,7 +1,12 @@
-const separador = (...datos) =>{
-    let resultado = null;
-    datos.forEach(dato => resultado += dato+", ")
-}
+const separador = (...datos) =>datos.reduce((resultado, str)=>{
+    //let resultado = "";
+    /* datos.forEach(dato => resultado += dato + ", ")
+     return resultado;*/
+     if(resultado !== '')
+     resultado += ', '
+     
+     return resultado += str
+})
 
  let muestra = separador("Juan", "Esther")
  
