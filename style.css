@@ -1,0 +1,22 @@
+
+.container{
+display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.divi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blanchedalmond;
+    max-width: max-content;
+    padding: 10px 25px;
+}
+#color{
+    cursor: pointer;
+}
+
+div.botones{
+    margin-top: 12px;
+}
